@@ -86,7 +86,7 @@ module Faraday
     end
 
     def locked?
-      @handlers.frozen?
+      false
     end
 
     def use(klass, *args, &block)
